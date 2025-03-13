@@ -1,0 +1,116 @@
+# freelancer-website
+//creating frontend of freelancer website
+HTML FILE
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Freelancer - Meet Our Team</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="navbar">
+      <h1>Freelancer Team</h1>
+      <nav>
+        <ul>
+          <li><a href="#team">Meet the Team</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#freelance-info">Freelancing Info</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Team Section -->
+  <section id="team">
+    <h2>Our Amazing Team</h2>
+    <div class="team-container">
+      <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Karan">
+        <h3>Karan (Team Head)</h3>
+        <p>Leader and visionary of the team, always ensuring we are on the right track.</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Manoj K">
+        <h3>Manoj K</h3>
+        <p>Creative mind behind the designs, passionate about aesthetics and user experience.</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Suhel">
+        <h3>Suhel</h3>
+        <p>Technical wizard, specializes in coding and turning ideas into reality.</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Prajwal">
+        <h3>Prajwal</h3>
+        <p>Strategist who focuses on project management and ensuring timely deliveries.</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Priyanka">
+        <h3>Priyanka (Team Member)</h3>
+        <p>Content creator and social media strategist, making sure our message is clear.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>What We Offer</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <h3>Web Development</h3>
+        <p>Creating responsive and dynamic websites tailored to your needs.</p>
+      </div>
+      <div class="service-card">
+        <h3>UI/UX Design</h3>
+        <p>Designing user-friendly interfaces that offer smooth and engaging experiences.</p>
+      </div>
+      <div class="service-card">
+        <h3>Content Creation</h3>
+        <p>Crafting high-quality content that captivates and converts your audience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Freelancing Information Section -->
+  <section id="freelance-info">
+    <h2>What is Freelancing?</h2>
+    <p>Freelancing allows individuals to work on a project-by-project basis rather than being permanently employed by a single company. It offers freedom, flexibility, and the chance to work on a variety of projects with different clients.</p>
+    <button onclick="showMoreInfo()">Learn More</button>
+    <div id="more-info" style="display:none;">
+      <h3>Benefits of Freelancing</h3>
+      <ul>
+        <li>Flexibility to work from anywhere</li>
+        <li>Ability to choose your projects</li>
+        <li>Opportunity to work with multiple clients</li>
+        <li>Potential for higher earnings</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Freelancer Team. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
